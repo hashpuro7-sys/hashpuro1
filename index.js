@@ -57,7 +57,7 @@ const PREFIX = config.prefix;
 const TOKEN = config.token;
 const AD_CHANNEL_IDS = config.adChannelIds;
 
-client.once('ready', () => {
+client.once('clientReady', () => {
   console.log(`✅ Bot online como: ${client.user.tag}`);
   console.log(`📢 Canais de anúncios configurados: ${AD_CHANNEL_IDS.length}`);
   AD_CHANNEL_IDS.forEach((id) => console.log(`   - Canal ID: ${id}`));

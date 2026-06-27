@@ -1,4 +1,4 @@
-modules = ["nodejs-20"]
+modules = ["nodejs-22", "python-3.11"]
 [nix]
 channel = "stable-25_05"
 
@@ -24,3 +24,26 @@ REGISTRO_CARGO_RECRUTADOR_ID = ""
 VERIFICACAO_CARGO_ID = ""
 TICKETS_LOG_CHANNEL_ID = ""
 TICKETS_CARGO_EQUIPE_ID = ""
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Bot Discord"
+
+[[workflows.workflow]]
+name = "Bot Discord"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node index.js"
+
+[workflows.workflow.metadata]
+outputType = "console"
