@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: dependency_management
+title: NPM Dependency Management with Lockfile Integrity
+scope: []
+source_files:
+    - package.json
+    - package-lock.json
+    - .gitignore
+depends_on: []
+related_to: []

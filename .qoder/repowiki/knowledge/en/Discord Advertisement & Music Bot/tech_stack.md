@@ -1,0 +1,2 @@
+- Uses `@discordjs/voice` with `ffmpeg-static` for audio streaming infrastructure.
+- Combines `play-dl` for search/validation and `@distube/ytdl-core` for high-watermark audio streaming.

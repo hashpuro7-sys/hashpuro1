@@ -1,0 +1,4 @@
+- Entry point `index.js` initializes the `discord.js` client, loads configuration from `config.js`, and routes prefix-based commands.
+- Advertisement logic is handled inline within `index.js`, using synchronous file I/O to read/write `ads.json` for persistent storage.
+- Music functionality is delegated to `music.js`, which manages per-guild voice connections, audio players, and queues using `@discordjs/voice` and `play-dl`/`ytdl-core`.
+- Configuration is centralized in `config.js`, utilizing `dotenv` to inject environment variables for tokens and channel IDs.

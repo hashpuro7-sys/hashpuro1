@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: configuration_system
+title: Environment Variable Configuration with dotenv
+scope: []
+source_files:
+    - .env
+    - config.js
+    - index.js
+    - package.json
+    - ads.json
+depends_on: []
+related_to: []

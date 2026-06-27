@@ -1,0 +1,37 @@
+schema_version: 1
+module_path: ""
+title: Discord Advertisement & Music Bot
+scope:
+    - README.md
+    - .gitignore
+    - package.json
+    - package-lock.json
+    - index.js
+    - music.js
+    - config.js
+    - .env
+    - .qoder\repowiki\en\content\Command Reference.md
+    - .qoder\repowiki\en\content\Configuration Guide.md
+    - .qoder\repowiki\en\content\Data Management.md
+    - .qoder\repowiki\en\content\Development and Customization.md
+    - .qoder\repowiki\en\content\Getting Started.md
+    - .qoder\repowiki\en\content\Project Overview.md
+    - .qoder\repowiki\en\content\Technical Architecture.md
+    - .qoder\repowiki\en\meta\repowiki-metadata.json
+    - .qoder\repowiki\knowledge\en\Ad-hoc Error Handling with Console Logging\_module.yaml
+    - .qoder\repowiki\knowledge\en\Ad-hoc Error Handling with Console Logging\error_handling.md
+    - .qoder\repowiki\knowledge\en\Environment Variable Configuration with dotenv\_module.yaml
+    - .qoder\repowiki\knowledge\en\Environment Variable Configuration with dotenv\configuration_system.md
+    - .qoder\repowiki\knowledge\en\_index.yaml
+    - 1782334484996-player-script.js
+    - 1782334485010-player-script.js
+    - 1782334660872-player-script.js
+    - 1782334660895-player-script.js
+    - 1782334758918-player-script.js
+    - 1782334758935-player-script.js
+    - 1782335144316-player-script.js
+    - 1782335144332-player-script.js
+    - ads.json
+source_files: []
+depends_on: []
+related_to: []

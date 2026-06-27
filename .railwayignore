@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.zip
+*-player-script.js
+ads.json
+*.bat

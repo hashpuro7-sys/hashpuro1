@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: build_system
+title: Node.js Build & Execution Environment
+scope: []
+source_files:
+    - package.json
+    - index.js
+    - config.js
+    - .env
+    - .gitignore
+depends_on: []
+related_to: []

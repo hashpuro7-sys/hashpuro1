@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: logging_system
+title: Ad-hoc Console Logging Without Structured Framework
+scope: []
+source_files:
+    - index.js
+    - music.js
+    - .qoder/repowiki/knowledge/en/Ad-hoc Error Handling with Console Logging/error_handling.md
+depends_on: []
+related_to: []

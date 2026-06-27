@@ -1,0 +1,1 @@
+A Discord bot that manages marketplace advertisements via JSON persistence and streams YouTube audio in voice channels.

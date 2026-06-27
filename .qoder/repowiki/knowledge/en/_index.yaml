@@ -1,0 +1,104 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: en-US
+branch: Q0DeR-MaG1C-BrAnCh-Fo2-NoN-GiT-Or-No-C0MmIt
+nodes_managed: true
+exported_at: "2026-06-24T21:19:04Z"
+modules:
+    "":
+        dir_name: Discord Advertisement & Music Bot
+        title: Discord Advertisement & Music Bot
+        scope:
+            - README.md
+            - .gitignore
+            - package.json
+            - package-lock.json
+            - index.js
+            - music.js
+            - config.js
+            - .env
+            - .qoder\repowiki\en\content\Command Reference.md
+            - .qoder\repowiki\en\content\Configuration Guide.md
+            - .qoder\repowiki\en\content\Data Management.md
+            - .qoder\repowiki\en\content\Development and Customization.md
+            - .qoder\repowiki\en\content\Getting Started.md
+            - .qoder\repowiki\en\content\Project Overview.md
+            - .qoder\repowiki\en\content\Technical Architecture.md
+            - .qoder\repowiki\en\meta\repowiki-metadata.json
+            - .qoder\repowiki\knowledge\en\Ad-hoc Error Handling with Console Logging\_module.yaml
+            - .qoder\repowiki\knowledge\en\Ad-hoc Error Handling with Console Logging\error_handling.md
+            - .qoder\repowiki\knowledge\en\Environment Variable Configuration with dotenv\_module.yaml
+            - .qoder\repowiki\knowledge\en\Environment Variable Configuration with dotenv\configuration_system.md
+            - .qoder\repowiki\knowledge\en\_index.yaml
+            - 1782334484996-player-script.js
+            - 1782334485010-player-script.js
+            - 1782334660872-player-script.js
+            - 1782334660895-player-script.js
+            - 1782334758918-player-script.js
+            - 1782334758935-player-script.js
+            - 1782335144316-player-script.js
+            - 1782335144332-player-script.js
+            - ads.json
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    build_system:
+        dir_name: Node.js Build & Execution Environment
+        title: Node.js Build & Execution Environment
+        scope: []
+        source_files:
+            - package.json
+            - index.js
+            - config.js
+            - .env
+            - .gitignore
+        children: []
+        depends_on: []
+        related_to: []
+    configuration_system:
+        dir_name: Environment Variable Configuration with dotenv
+        title: Environment Variable Configuration with dotenv
+        scope: []
+        source_files:
+            - .env
+            - config.js
+            - index.js
+            - package.json
+            - ads.json
+        children: []
+        depends_on: []
+        related_to: []
+    dependency_management:
+        dir_name: NPM Dependency Management with Lockfile Integrity
+        title: NPM Dependency Management with Lockfile Integrity
+        scope: []
+        source_files:
+            - package.json
+            - package-lock.json
+            - .gitignore
+        children: []
+        depends_on: []
+        related_to: []
+    error_handling:
+        dir_name: Ad-hoc Error Handling with Console Logging
+        title: Ad-hoc Error Handling with Console Logging
+        scope: []
+        source_files:
+            - index.js
+            - music.js
+            - config.js
+        children: []
+        depends_on: []
+        related_to: []
+    logging_system:
+        dir_name: Ad-hoc Console Logging Without Structured Framework
+        title: Ad-hoc Console Logging Without Structured Framework
+        scope: []
+        source_files:
+            - index.js
+            - music.js
+            - .qoder/repowiki/knowledge/en/Ad-hoc Error Handling with Console Logging/error_handling.md
+        children: []
+        depends_on: []
+        related_to: []

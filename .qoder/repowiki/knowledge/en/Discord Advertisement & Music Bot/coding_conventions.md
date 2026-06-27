@@ -1,0 +1,3 @@
+- Commands support multiple aliases (e.g., 'play', 'p', 'tocar') mapped to the same handler logic.
+- Asynchronous music operations are wrapped in try-catch blocks with console error logging and user-facing failure messages.
+- Advertisement data is managed via synchronous `fs.readFileSync` and `fs.writeFileSync` calls to a local JSON file.
