@@ -1,15 +1,8 @@
 [phases.setup]
-nixPkgs = ["nodejs_22", "python311", "ffmpeg", "gcc", "gnumake", "pkg-config"]
+nixPkgs = ["nodejs_22", "python311", "ffmpeg", "gcc", "gnumake"]
 
 [phases.install]
-cmds = ["npm install --ignore-scripts", "node node_modules/sharp/install/check || npx --yes sharp-cli install"]
-
-[phases.build]
-cmds = []
+cmds = ["YOUTUBE_DL_SKIP_PYTHON_CHECK=1 npm install"]
 
 [start]
 cmd = "node index.js"
-
-[variables]
-YOUTUBE_DL_SKIP_PYTHON_CHECK = "1"
-NPM_CONFIG_OPTIONAL = "false"
