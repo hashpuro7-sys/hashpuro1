@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=23.0.0"
+  },
   "dependencies": {
     "@discordjs/voice": "^0.19.2",
     "@distube/ytdl-core": "^4.16.12",
