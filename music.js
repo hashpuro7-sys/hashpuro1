@@ -1,4 +1,3 @@
-process.env.FFMPEG_PATH = require('ffmpeg-static');
 
 const { createAudioPlayer, createAudioResource, AudioPlayerStatus, joinVoiceChannel, StreamType } = require("@discordjs/voice");
 const play = require("play-dl");
