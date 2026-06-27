@@ -1,8 +1,8 @@
 [phases.setup]
-nixPkgs = ["nodejs_23", "python311", "ffmpeg", "gcc", "gnumake"]
+nixPkgs = ["nodejs_23", "python311", "ffmpeg"]
 
 [phases.install]
-cmds = ["YOUTUBE_DL_SKIP_PYTHON_CHECK=1 npm install"]
+cmds = ["npm install --legacy-peer-deps"]
 
 [start]
 cmd = "node index.js"
