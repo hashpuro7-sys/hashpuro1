@@ -4,15 +4,16 @@ WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
     python3 \
+    python3-pip \
     ffmpeg \
     gcc \
     make \
     g++ \
+    curl \
+    && pip3 install --break-system-packages yt-dlp \
     && rm -rf /var/lib/apt/lists/*
 
 COPY package*.json ./
-
-ENV YOUTUBE_DL_SKIP_PYTHON_CHECK=1
 
 RUN npm install
 

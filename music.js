@@ -346,9 +346,7 @@ async function playNext(guildId) {
     // Mata o processo anterior se existir
     killCurrentProcess(queue);
 
-    const ytdlpPath = os.platform() === 'win32' 
-      ? path.join(__dirname, 'node_modules', 'youtube-dl-exec', 'bin', 'yt-dlp.exe')
-      : path.join(__dirname, 'node_modules', 'youtube-dl-exec', 'bin', 'yt-dlp');
+    const ytdlpPath = 'yt-dlp';
     const ytdlpProcess = spawn(ytdlpPath, [
       song.url,
       '--output', '-',
